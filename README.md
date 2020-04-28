@@ -1,4 +1,4 @@
-Words in sentances
+Words in sentences
 ==================
 
 Short scala program to demonstrate a method to find the longest and shortest words in sentences.
@@ -6,7 +6,7 @@ Short scala program to demonstrate a method to find the longest and shortest wor
 Assumptions
 -----------
 
-THis is a naive implementation because we assume that a word is a continuous grouping of alpha chars 
+This is a naive implementation because we assume that a word is a continuous grouping of alpha chars 
 delimited by one or more non-alpha chars.
 
 A suggested improvement would be to use more advanced pattern matching to allow for things like 
@@ -19,3 +19,5 @@ Build and test
 The program can be build and tested using `sbt` by running
 
     sbt test
+    
+> See https://www.scala-sbt.org/1.x/docs/Setup.html for instructions on how to install `sbt`
